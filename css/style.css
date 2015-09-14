@@ -1,0 +1,462 @@
+/* Web Development by: José Alberto García
+** Design and rights belong to: Orangeboutiquecreativa
+** Author URL: http://github.com/josealbertogarcia
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:40,500,800,900,700,600,300,200,100');
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.conectanos-container {
+    padding: 5em;
+}
+.conectanos-container h1,
+.conectanos-container h3 {
+    color: gray;
+}
+.company-container h2,
+.company-container p {
+    padding: 1em;
+    font-size: 14px;
+    color: gray;
+    text-align: justify;
+}
+.company-container p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.company-container h2 {
+    font-weight: 100;
+    font-size: 22px;
+}
+.imagen-container {
+       padding: 10em;
+
+}
+.img-logo{
+  padding: 0em;
+  width: 35%;
+  height: 100%;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.navbar-1{
+    float:left;
+    top: 0px;
+    height: 70px;
+    width: 75px;
+    padding:15px 10px;
+    line-height:20px;
+    background-image: url("../content/HEADER/ICONS/iconmenuorange.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content:'';
+    border-top-style: none;
+    border-left-style: groove; border-left-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+.navbar-1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FE9A2E;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.navbar-1:hover:before, .navbar-1:focus:before, .navbar-1:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.navbar-2{
+    float:left;
+    top: 0px;
+    height: 70px;
+    width: 75px;
+    padding:15px 10px;
+    line-height:20px;
+    background-image: url("../content/HEADER/ICONS/iconportafolioorange.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content:'';
+    border-top-style: none;
+    border-left-style: groove; border-left-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+
+}
+.navbar-2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FE9A2E;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.navbar-2:hover:before, .navbar-2:focus:before, .navbar-2:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.navbar-3{
+    float:left;
+    top: 0px;
+    height: 70px;
+    width: 75px;
+    padding:15px 10px;
+    line-height:20px;
+    background-image: url("../content/HEADER/ICONS/iconblogorange.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content:'';
+    border-top-style: none;
+    border-left-style: groove; border-left-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+
+}
+.navbar-3:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FE9A2E;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.navbar-3:hover:before, .navbar-3:focus:before, .navbar-3:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.navbar-4{
+    float:left;
+    top: 0px;
+    height: 70px;
+    width: 75px;
+    padding:15px 10px;
+    line-height:20px;
+    background-image: url("../content/HEADER/ICONS/iconcontactoorange.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content:'';
+    border-top-style: none;
+    border-left-style: groove; border-left-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+.navbar-4:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FE9A2E;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.navbar-4:hover:before, .navbar-4:focus:before, .navbar-4:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.navbar-5{
+    float:left;
+    top: 0px;
+    height: 70px;
+    width: 75px;
+    padding:15px 10px;
+    line-height:20px;
+    background-image: url("../content/HEADER/ICONS/icontelefonosorange.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content:'';
+    border-top-style: none;
+    border-left-style: groove; border-left-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+
+}
+.navbar-5:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FE9A2E;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.navbar-5:hover:before, .navbar-5:focus:before, .navbar-5:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.navbar-6{
+    float:left;
+    top: 0px;
+    height: 70px;
+    width: 75px;
+    padding:15px 10px;
+    line-height:20px;
+    background-image: url("../content/HEADER/ICONS/iconfaceorange.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content:'';
+    border-top-style: none;
+    border-left-style: groove; border-left-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+
+}
+.navbar-6:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FE9A2E;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.navbar-6:hover:before, .navbar-6:focus:before, .navbar-6:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.navbar-7{
+    float:left;
+    top: 0px;
+    height: 70px;
+    width: 75px;
+    padding:15px 10px;
+    line-height:20px;
+    background-image: url("../content/HEADER/ICONS/icontwitterorange.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content:'';
+    border-top-style: none;
+    border-left-style: groove; border-left-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+.navbar-7:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FE9A2E;
+  height: 4px;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.navbar-7:hover:before, .navbar-7:focus:before, .navbar-7:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+img {
+  opacity: 0.7;
+  -moz-transition: all 0.5s ease 0s;
+}
+img:hover {
+  opacity: 1;
+}
+
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
